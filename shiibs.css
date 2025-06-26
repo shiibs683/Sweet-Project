@@ -1,0 +1,231 @@
+@font-face {
+  font-family: "DM Sans";
+  src: url(assets/fonts/DMSans-VariableFont_opsz\wght.ttf);
+}
+
+@font-face {
+  font-family: "DM Sans itallic";
+  src: url(assets/fonts/DMSans-Italic-VariableFont_opsz\wght.ttf);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "DM Sans", Arial;
+  color: hsl(0, 1%, 25%);
+}
+
+.container1 {
+  background-color: white;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container2 {
+  background-color:rgb(249, 246, 246);
+  height: 80vh;
+  width: 60vw;
+  display: flex;
+  gap: 16px;
+  padding-right: 72px;
+  padding-bottom: 80px;
+}
+.plastic1 {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 36px;
+  margin-left: 100px;
+  height: 600px;
+}
+.box1 {
+  height: 287px;
+  background-color: hsl(31, 66%, 93%);
+  width: 160px;
+  border-radius: 12px;
+  padding-left: 24px;
+}
+.box2 {
+  height: 287px;
+  background-color: hsl(39, 100%, 71%);
+  width: 160px;
+  border-radius: 12px;
+  padding-left: 36px;
+}
+.plastic2 {
+  height: 516px;
+  margin-top: 36px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas:
+    "square1 square1 square2"
+    "square3 square4 square2"
+    "square5 square6 square6";
+  gap: 16px;
+}
+.square1 {
+  background-color: hsl(256, 67%, 59%);
+  min-height: 180px;
+  min-width: 320px;
+  border-radius: 12px;
+}
+.square2 {
+  background-color: hsl(254, 88%, 90%);
+  min-height: 340px;
+  min-width: 160px;
+  border-radius: 12px;
+}
+.square3 {
+  background-color: white;
+  min-height: 160px;
+  min-width: 160px;
+  border-radius: 12px;
+  padding-top: 16px;
+  padding-left: 20px;
+}
+.square4 {
+  background-color: hsl(39, 100%, 71%);
+  min-height: 160px;
+  min-width: 160px;
+  border-radius: 12px;
+  padding: 12px 16px;
+}
+.square5 {
+  background-color: white;
+  min-height: 160px;
+  min-width: 160px;
+  border-radius: 12px;
+}
+.square6 {
+  background-color: hsl(256, 67%, 59%);
+  min-height: 160px;
+  min-width: 320px;
+  border-radius: 12px;
+  padding: 18px;
+  display: flex;
+  gap: 8px;
+}
+
+.square1 {
+  grid-area: square1;
+}
+.square2 {
+  grid-area: square2;
+}
+.square3 {
+  grid-area: square3;
+}
+.square4 {
+  grid-area: square4;
+}
+.square5 {
+  grid-area: square5;
+}
+.square6 {
+  grid-area: square6;
+}
+.box1p {
+  font-size: 28px;
+  font-weight: 550;
+  margin-bottom: 0;
+  letter-spacing: -2px;
+  margin-bottom: 16px;
+}
+.quickerp {
+  color: hsl(256, 57%, 61%);
+  font-family: "DM Sans itallic";
+}
+.box2p {
+  font-size: 28px;
+  font-weight: 550;
+  letter-spacing: -2px;
+  margin-top: 16px;
+  margin-bottom: 0;
+}
+.usingp {
+  font-family: "DM Sans itallic";
+  font-size: 28px;
+  font-weight: 550;
+  letter-spacing: -2px;
+  margin-top: 0;
+}
+.imgai {
+  margin: 10px 4px;
+}
+h1 {
+  color: white;
+  font-size: 38px;
+  @font-face font-family:"DM Sans";
+  src: url(assets/fonts/DMSans-VariableFont_opsz\wght.ttf);
+  margin: 16px 36px;
+}
+.yoo {
+  color: hsl(39, 100%, 71%);
+}
+.imgstars {
+  margin: -4px 82px;
+  margin-bottom: 0;
+}
+.star {
+  color: white;
+  margin-left: 60px;
+  margin-top: 0;
+}
+.schedule {
+  font-size: 24px;
+  font-weight: 550;
+  letter-spacing: -2px;
+  margin-top: 16px;
+  margin-bottom: 0;
+  padding: 20px 28px;
+}
+.imgpost {
+  margin-left: 24px;
+}
+.optimize {
+  margin: 8px 16px;
+  margin-bottom: 12px;
+  color: black;
+  letter-spacing: -1px;
+}
+.maintain {
+  font-size: 26px;
+  font-weight: 550;
+  letter-spacing: -2px;
+  margin-top: 8px;
+  margin-bottom: 10px;
+  margin-left: 8px;
+  line-height: 0.9em;
+}
+.manage {
+  font-size: 26px;
+  font-weight: 550;
+  letter-spacing: -2px;
+  margin-top: 8px;
+  line-height: 0.9em;
+}
+.percent {
+  color: rgb(64, 63, 63);
+  font-size: 40px;
+  margin-left: 24px;
+  margin-bottom: 0;
+}
+.faster {
+  margin-top: 4px;
+  color: black;
+  margin-left: 16px;
+  font-size: 14px;
+}
+.headboy {
+  margin-left: 24px;
+}
+.grow {
+  font-size: 28px;
+  font-weight: 550;
+  margin-bottom: 0;
+  letter-spacing: -2px;
+  margin-bottom: 16px;
+  color: rgb(255, 248, 248);
+}
